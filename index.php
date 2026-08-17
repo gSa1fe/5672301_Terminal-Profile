@@ -6,7 +6,7 @@ $profile = [
     'university' => 'Lampang Rajabhat University',
     'email' => 'yannawutpanjaruan@gmail.com',
     'major' => 'Software Engineer',
-    'github' => 'https://github.com/yannawutpanjaruan',
+    'github' => 'https://github.com/gSa1fe/5672301_Terminal-Profile',
 ];
 
 $terminal = [
