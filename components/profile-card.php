@@ -1,11 +1,11 @@
-    <section class="terminal-app d-flex flex-column" aria-label="Interactive terminal portfolio">
+    <section class="terminal-app d-flex flex-column" aria-label="Interactive terminal profile">
         <div id="terminal-output" class="terminal-output w-100" role="log" aria-live="polite" aria-relevant="additions text">
             <div class="terminal-row command-row d-flex align-items-baseline"><span class="prompt"><span class="prompt-user"><?= htmlspecialchars($terminal['user'], ENT_QUOTES, 'UTF-8') ?></span>@<span class="prompt-host"><?= htmlspecialchars($terminal['host'], ENT_QUOTES, 'UTF-8') ?></span>:~$</span> welcome</div>
             <div class="hero-grid">
                 <div class="hero-copy">
                     <pre class="ascii-logo ascii-logo-desktop" aria-label="YannawutPanjaruan"><?= $ascii['titleDesktop'] ?></pre>
                     <pre class="ascii-logo ascii-logo-mobile" aria-label="Yannawut Panjaruan"><?= $ascii['titleMobile'] ?></pre>
-                    <p class="welcome-title">Welcome to my terminal portfolio. (Version 1.0.0)</p>
+                    <p class="welcome-title">Welcome to my terminal profile. (Version 1.0.0)</p>
                     <p class="rule">----</p>
                     <p>This project is a personal introduction page built with PHP.</p>
                     <p>My source code can be found in this project's <a href="<?= htmlspecialchars($profile['github'], ENT_QUOTES, 'UTF-8') ?>" target="_blank" rel="noopener noreferrer">GitHub repo</a>.</p>
